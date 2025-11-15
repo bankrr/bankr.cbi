@@ -2,6 +2,7 @@
 
 export(read_cbi)
 export(tidy_cbi)
+import(bankr.utils)
 importFrom(stats,aggregate)
 importFrom(utils,packageName)
 importFrom(utils,packageVersion)

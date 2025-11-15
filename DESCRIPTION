@@ -7,8 +7,11 @@ Description: Provides functions to read, validate, and tidy CBI (Corporate Banki
     format bank statement files commonly used in Italian banking.
 License: MIT + file LICENSE
 Imports:
+    bankr.utils,
     stats,
     utils
+Remotes:
+    bankrr/bankr.utils
 Suggests:
     testthat (>= 3.0.0),
     tibble
