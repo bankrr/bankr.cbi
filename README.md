@@ -19,7 +19,7 @@ The package provides functions to read and process CBI (Corporate Banking Interb
 library(bankr.cbi)
 
 # Read a CBI file
-cbi_data <- read_cbi("path/to/file.cbi")
+cbi_data <- read_cbi("path/to/file.txt")
 
 # Tidy the data into a data frame
 tidy_data <- tidy_cbi(cbi_data)
