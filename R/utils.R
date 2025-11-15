@@ -1,9 +1,6 @@
 as_date <- function(x) {
-  stopifnot(
-    is.character(x)
-    # all(nchar(x) == 6)
-  )
-  as.Date(x, format = "%d%m%y")
+  stopifnot(is.character(x))
+  date_from_compact(x)
 }
 
 xtr_match <- function(text, pattern) {
